@@ -1,0 +1,42 @@
+.gradient{
+    background: linear-gradient(-45deg, #ff4e50, #f9d423, #fff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+.container-fluid{
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }/*# sourceMappingURL=jumbo.css.map */
